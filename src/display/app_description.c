@@ -9,17 +9,22 @@ void add_new_tab(void);
 void app_description(void) {
   add_new_tab();
   add_new_tab();
-  printf("%s----------------------------------------------%s", BLUE, RESET);
+  printf("%s------------------------------------------------%s", BLUE, RESET);
   add_new_line();
   add_new_line();
   add_new_tab();
   add_new_tab();
   add_new_tab();
   add_new_tab();
-  printf("ElementExplorer\n");
+  printf("%sElementExplorer%s", GREEN, RESET);
+  add_new_line();
   add_new_line();
   add_new_tab();
   add_new_tab();
-  printf("%s----------------------------------------------%s\n", BLUE, RESET);
+  printf("  A CLI tool for searching element information.");
   add_new_line();
+  add_new_line();
+  add_new_tab();
+  add_new_tab();
+  printf("%s------------------------------------------------%s\n", BLUE, RESET);
 }
