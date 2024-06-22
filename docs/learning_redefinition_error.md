@@ -11,4 +11,5 @@ will encounter the Redefinition error. <br />
 
 To fix this issue, remove the imported `add_new_line.c` in <br />
 `app_description.c`, then add a `void add_new_line(void);` <br />
-in `app_description.c` to remove the implicit type warning. <br />
+function prototype in `app_description.c` to remove the <br />
+implicit type warning. <br />
