@@ -1,10 +1,3 @@
 ## Learnings
 
 > - These are the knowledge I gained during building this project.
-
-| Redefinition of `add_new_line` |
-| ------------------------------ |
-| When you imported `add_new_line.c` in `app_description.c`, | <br />
-| then `app_description.c` is called inside the `main.c`, | <br />
-| and `main.c` also imported the `add_new_line.c`, you | <br />
-| will encounter the Redefinition error. |
