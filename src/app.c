@@ -1,7 +1,8 @@
+#include "./display/app_description.c"
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World! \n");
+  app_description();
 
   return 0;
 }
