@@ -7,7 +7,7 @@
 
 <br />
 
-- A CLI tool for searching element information.
+- `A CLI tool for searching element information.`
 
 <br />
 <br />
@@ -16,7 +16,7 @@
 
 ## Local Development
 
-> - Running the app.
+- `Running the app.`
 
 ```sh
 # Add permission to the bash file and make it executable.
