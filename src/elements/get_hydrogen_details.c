@@ -1,3 +1,4 @@
+#include "../displays/color_codes.c"
 #include <stdio.h>
 
 // Function prototypes.
@@ -8,89 +9,92 @@ void get_hydrogen_details(void) {
   // Display symbol.
   add_new_tab();
   add_new_tab();
-  printf("Symbol: H");
+  printf("%sSymbol%s: %sH%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display name.
   add_new_tab();
   add_new_tab();
-  printf("Name: Hydrogen");
+  printf("%sName%s: %sHydrogen%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display atomic number.
   add_new_tab();
   add_new_tab();
-  printf("Atomic Number: 1");
+  printf("%sAtomic Number%s: %s1%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display chemical group block.
   add_new_tab();
   add_new_tab();
-  printf("Chemical Group Block: Nonmetal");
+  printf("%sChemical Group Block%s: %sNonmetal%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display atomic mass.
   add_new_tab();
   add_new_tab();
-  printf("Atomic Mass: 1.0080 u");
+  printf("%sAtomic Mass%s: %s1.0080 u%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display standard state.
   add_new_tab();
   add_new_tab();
-  printf("Standard State: Gas");
+  printf("%sStandard State%s: %sGas%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display electron configuration.
   add_new_tab();
   add_new_tab();
-  printf("Electron Configuration: 1s1");
+  printf("%sElectron Configuration%s: %s1s1%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display oxidation states.
   add_new_tab();
   add_new_tab();
-  printf("Oxidation States: +1, -1");
+  printf("%sOxidation States%s: %s+1, -1%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display electronegativity (pauling scale).
   add_new_tab();
   add_new_tab();
-  printf("Electronegativity (Pauling Scale): 2.2");
+  printf("%sElectronegativity (Pauling Scale)%s: %s2.2%s", BLUE, RESET, YELLOW,
+         RESET);
   add_new_line();
 
   // Display atomic radius (van der Waals).
   add_new_tab();
   add_new_tab();
-  printf("Atomic Radius (Van Der Waals): 120 pm");
+  printf("%sAtomic Radius (Van Der Waals)%s: %s120 pm%s", BLUE, RESET, YELLOW,
+         RESET);
   add_new_line();
 
   // Display ionization energy.
   add_new_tab();
   add_new_tab();
-  printf("Ionization Energy: 13.598 eV");
+  printf("%sIonization Energy%s: %s13.598 eV%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display electron affinity.
   add_new_tab();
   add_new_tab();
-  printf("Electron Affinity: 0.754 eV");
+  printf("%sElectron Affinity%s: %s0.754 eV%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display melting point.
   add_new_tab();
   add_new_tab();
-  printf("Melting Point: 20.28 K");
+  printf("%sMelting Point%s: %s20.28 K%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display density.
   add_new_tab();
   add_new_tab();
-  printf("Density: 0.00008988 g/cm³");
+  printf("%sDensity%s: %s0.00008988 g/cm³%s", BLUE, RESET, YELLOW, RESET);
   add_new_line();
 
   // Display year discovered.
   add_new_tab();
   add_new_tab();
-  printf("Discoverd By: Henry Cavendish (1766)");
+  printf("%sDiscovered By%s: %sHenry Cavendish (1766)%s", BLUE, RESET, YELLOW,
+         RESET);
 }

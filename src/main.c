@@ -30,7 +30,6 @@ int main(void) {
   int isHydrogenSymbol = strcmp(lowercase_input, "h");
   int isHydrogenName = strcmp(lowercase_input, "hydrogen");
   if (isHydrogenSymbol == 0 || isHydrogenName == 0) {
-    add_new_line();
     get_hydrogen_details();
   }
 
