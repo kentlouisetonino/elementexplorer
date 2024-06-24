@@ -6,7 +6,7 @@
 
 <br />
 
-- `A CLI tool for searching element information.`
+- `A CLI tool for element details.`
 
 - `This project refers to` [`National Library of Medicine PubChem`](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
