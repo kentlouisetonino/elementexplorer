@@ -19,9 +19,11 @@
 - `Running the app.`
 
 ```sh
-# Add permission to the bash file and make it executable.
+# Running the app.
 chmod +x run.sh
-
-# Run the app.
 ./run.sh
+
+# Running the app with GDB.
+chmod +x run-debug.sh
+./run-debug.sh
 ```
