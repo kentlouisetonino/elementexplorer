@@ -2,6 +2,8 @@
 #include "./displays/app_description.c"
 #include "./displays/clear_terminal.c"
 #include "./inputs/get_input.c"
+#include "./inputs/get_lowercase_input.c"
+#include <ctype.h>
 #include <stdio.h>
 
 int main(void) {
@@ -22,7 +24,7 @@ int main(void) {
 
   // Test the input.
   add_new_line();
-  printf("From main: %s", input);
+  printf("From main: %s", get_lowercase_input(input));
 
   // Add some spaces before the exit.
   add_new_line();
