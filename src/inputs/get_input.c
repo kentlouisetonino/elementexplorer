@@ -11,7 +11,7 @@ char *get_input() {
 
   add_new_tab();
   add_new_tab();
-  printf("Enter element symbol or name: ");
+  printf("Enter Element (Symbol | Name): ");
   fgets(draftInput, 100, stdin);
 
   return draftInput;
