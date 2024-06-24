@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Function prototypes for functions already imported in main.
 void add_new_tab(void);
 void add_new_line(void);
 
-void get_input() {
-  char *draftInput;
+char *get_input() {
+  // Allocate memory pointer.
+  char *draftInput = malloc(sizeof(char) * 100);
 
   add_new_tab();
   add_new_tab();
   printf("Enter element symbol or name: ");
   fgets(draftInput, 100, stdin);
 
-  add_new_line();
-  printf("%s", draftInput);
+  return draftInput;
 }

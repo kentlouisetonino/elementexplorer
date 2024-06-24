@@ -5,6 +5,8 @@
 #include <stdio.h>
 
 int main(void) {
+  char *input;
+
   // Clean up the screen.
   clear_terminal();
   add_new_line();
@@ -16,10 +18,11 @@ int main(void) {
 
   // Handle the input.
   add_new_line();
-  get_input();
+  input = get_input();
 
   // Test the input.
   add_new_line();
+  printf("From main: %s", input);
 
   // Add some spaces before the exit.
   add_new_line();
