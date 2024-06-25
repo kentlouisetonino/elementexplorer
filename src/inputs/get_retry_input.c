@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Function prototypes.
 void add_new_tab(void);
 char *get_lowercase_input(char *);
 
