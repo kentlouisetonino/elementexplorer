@@ -10,7 +10,7 @@ int get_retry_input() {
 
   add_new_tab();
   add_new_tab();
-  printf("Try again (y/n): ");
+  printf("Try again (y | n): ");
   fgets(retry_input, 5, stdin);
 
   char *lower_retry_input = get_lowercase_input(retry_input);
