@@ -6,7 +6,7 @@ void add_new_tab(void);
 void add_new_line(void);
 
 char *get_input() {
-  // Allocate memory pointer.
+  // Allocate memory to draftInput pointer.
   char *draftInput = malloc(sizeof(char) * 100);
 
   add_new_tab();
