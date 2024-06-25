@@ -1,10 +1,28 @@
 #include "../displays/color_codes.c"
 #include <stdio.h>
+#include <string.h>
 
 // Function prototypes.
 void add_new_tab(void);
 void add_new_line(void);
 
+// Check if input is Hydrogen.
+int is_hydrogen(char *input) {
+  int is_hydrogen_symbol = strcmp(input, "h");
+  int is_hydrogen_name = strcmp(input, "hydrogen");
+
+  if (is_hydrogen_symbol == 0) {
+    return 1;
+  }
+
+  if (is_hydrogen_name == 0) {
+    return 1;
+  }
+
+  return 0;
+}
+
+// Show the hydrogen details.
 void get_hydrogen_details(void) {
   // Display symbol.
   add_new_tab();

@@ -27,9 +27,7 @@ int main(void) {
   lowercase_input = get_lowercase_input(input);
 
   // Display correct details.
-  int isHydrogenSymbol = strcmp(lowercase_input, "h");
-  int isHydrogenName = strcmp(lowercase_input, "hydrogen");
-  if (isHydrogenSymbol == 0 || isHydrogenName == 0) {
+  if (is_hydrogen(lowercase_input) == 1) {
     get_hydrogen_details();
   }
 
