@@ -1,6 +1,7 @@
 #include "./displays/add_new_line.c"
 #include "./displays/app_description.c"
 #include "./displays/clear_terminal.c"
+#include "./displays/element_not_found.c"
 #include "./elements/get_hydrogen_details.c"
 #include "./inputs/get_input.c"
 #include "./inputs/get_lowercase_input.c"
@@ -33,6 +34,10 @@ int main(void) {
     if (is_hydrogen(lowercase_input) == 1) {
       add_new_line();
       get_hydrogen_details();
+      add_new_line();
+    } else {
+      add_new_line();
+      element_not_found();
       add_new_line();
     }
 
