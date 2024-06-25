@@ -21,7 +21,8 @@ void app_description(void) {
   add_new_line();
   add_new_tab();
   add_new_tab();
-  printf("  A CLI tool for searching element information.");
+  add_new_tab();
+  printf("A CLI tool for Element details.");
   add_new_line();
   add_new_line();
   add_new_tab();
