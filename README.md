@@ -9,7 +9,7 @@
 
 > - A CLI tool for element details.
 
-> - This project refers to [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
+> - This elements details are based on [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
 <br />
 <br />
