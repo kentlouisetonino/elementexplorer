@@ -81,15 +81,15 @@ void get_element_details(struct element_type *element) {
   // Display electronegativity (pauling scale).
   add_new_tab();
   add_new_tab();
-  printf("%sElectronegativity (Pauling Scale)%s: %s%s%s", BLUE, RESET,
-         element->electronegativity, YELLOW, RESET);
+  printf("%sElectronegativity (Pauling Scale)%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->electronegativity, RESET);
   add_new_line();
 
   // Display atomic radius (van der Waals).
   add_new_tab();
   add_new_tab();
-  printf("%sAtomic Radius (Van Der Waals)%s: %s%s%s", BLUE, RESET,
-         element->atomic_radius, YELLOW, RESET);
+  printf("%sAtomic Radius (Van Der Waals)%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->atomic_radius, RESET);
   add_new_line();
 
   // Display ionization energy.
@@ -122,6 +122,6 @@ void get_element_details(struct element_type *element) {
   // Display year discovered.
   add_new_tab();
   add_new_tab();
-  printf("%sDiscovered By%s: %s%s%s", BLUE, RESET, element->discovered_by,
-         YELLOW, RESET);
+  printf("%sDiscovered By%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->discovered_by, RESET);
 }
