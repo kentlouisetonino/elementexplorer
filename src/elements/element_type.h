@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef ELEMENT_TYPE_H
+#define ELEMENT_TYPE_H
 
 struct element_type {
   char *symbol;
@@ -17,3 +18,5 @@ struct element_type {
   char *density;
   char *discovered_by;
 };
+
+#endif

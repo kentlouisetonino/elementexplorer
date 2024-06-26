@@ -1,4 +1,5 @@
 #include "../displays/color_codes.c"
+#include "./element_type.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -22,97 +23,105 @@ int is_hydrogen(char *input) {
   return 0;
 }
 
-// Show the hydrogen details.
-void get_hydrogen_details(void) {
+void get_element_details(struct element_type *element) {
   // Display symbol.
   add_new_tab();
   add_new_tab();
-  printf("%sSymbol%s: %sH%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sSymbol%s: %s%s%s", BLUE, RESET, YELLOW, element->symbol, RESET);
   add_new_line();
 
   // Display name.
   add_new_tab();
   add_new_tab();
-  printf("%sName%s: %sHydrogen%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sName%s: %s%s%s", BLUE, RESET, YELLOW, element->name, RESET);
   add_new_line();
 
   // Display atomic number.
   add_new_tab();
   add_new_tab();
-  printf("%sAtomic Number%s: %s1%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sAtomic Number%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->atomic_number, RESET);
   add_new_line();
 
   // Display chemical group block.
   add_new_tab();
   add_new_tab();
-  printf("%sChemical Group Block%s: %sNonmetal%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sChemical Group Block%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->chemical_group_block, RESET);
   add_new_line();
 
   // Display atomic mass.
   add_new_tab();
   add_new_tab();
-  printf("%sAtomic Mass%s: %s1.0080 u%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sAtomic Mass%s: %s%s%s", BLUE, RESET, YELLOW, element->atomic_mass,
+         RESET);
   add_new_line();
 
   // Display standard state.
   add_new_tab();
   add_new_tab();
-  printf("%sStandard State%s: %sGas%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sStandard State%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->standard_state, RESET);
   add_new_line();
 
   // Display electron configuration.
   add_new_tab();
   add_new_tab();
-  printf("%sElectron Configuration%s: %s1s1%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sElectron Configuration%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->electron_configuration, RESET);
   add_new_line();
 
   // Display oxidation states.
   add_new_tab();
   add_new_tab();
-  printf("%sOxidation States%s: %s+1, -1%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sOxidation States%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->oxidation_states, RESET);
   add_new_line();
 
   // Display electronegativity (pauling scale).
   add_new_tab();
   add_new_tab();
-  printf("%sElectronegativity (Pauling Scale)%s: %s2.2%s", BLUE, RESET, YELLOW,
-         RESET);
+  printf("%sElectronegativity (Pauling Scale)%s: %s%s%s", BLUE, RESET,
+         element->electronegativity, YELLOW, RESET);
   add_new_line();
 
   // Display atomic radius (van der Waals).
   add_new_tab();
   add_new_tab();
-  printf("%sAtomic Radius (Van Der Waals)%s: %s120 pm%s", BLUE, RESET, YELLOW,
-         RESET);
+  printf("%sAtomic Radius (Van Der Waals)%s: %s%s%s", BLUE, RESET,
+         element->atomic_radius, YELLOW, RESET);
   add_new_line();
 
   // Display ionization energy.
   add_new_tab();
   add_new_tab();
-  printf("%sIonization Energy%s: %s13.598 eV%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sIonization Energy%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->ionization_energy, RESET);
   add_new_line();
 
   // Display electron affinity.
   add_new_tab();
   add_new_tab();
-  printf("%sElectron Affinity%s: %s0.754 eV%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sElectron Affinity%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->electron_affinity, RESET);
   add_new_line();
 
   // Display melting point.
   add_new_tab();
   add_new_tab();
-  printf("%sMelting Point%s: %s20.28 K%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sMelting Point%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->melting_point, RESET);
   add_new_line();
 
   // Display density.
   add_new_tab();
   add_new_tab();
-  printf("%sDensity%s: %s0.00008988 g/cm³%s", BLUE, RESET, YELLOW, RESET);
+  printf("%sDensity%s: %s%s%s", BLUE, RESET, YELLOW, element->density, RESET);
   add_new_line();
 
   // Display year discovered.
   add_new_tab();
   add_new_tab();
-  printf("%sDiscovered By%s: %sHenry Cavendish (1766)%s", BLUE, RESET, YELLOW,
-         RESET);
+  printf("%sDiscovered By%s: %s%s%s", BLUE, RESET, element->discovered_by,
+         YELLOW, RESET);
 }

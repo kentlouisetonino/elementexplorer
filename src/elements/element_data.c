@@ -1,5 +1,4 @@
-#include "./types.c"
-#include <stdio.h>
+#include "./element_type.h"
 
 struct element_type hydrogen = {
     "H",        "Hydrogen",         "1",
