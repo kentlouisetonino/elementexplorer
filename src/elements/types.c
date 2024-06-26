@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct element_types {
+struct element_type {
   char *symbol;
   char *name;
   char *atomic_number;
