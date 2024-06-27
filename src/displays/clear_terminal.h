@@ -2,6 +2,6 @@
 #define CLEAR_TERMINAL_H
 #include "./clear_terminal.c"
 
-void clear_terminal(void);
+extern void clear_terminal(void);
 
 #endif
