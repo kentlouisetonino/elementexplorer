@@ -3,5 +3,7 @@
 #include "./element_data.c"
 
 extern struct element_type hydrogen;
+extern struct element_type helium;
+extern struct element_type litium;
 
 #endif

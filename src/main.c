@@ -38,7 +38,11 @@ int main(void) {
       add_new_line();
       get_element_details(&hydrogen);
       add_new_line();
-    } else if (is_lithium(lowercase_input)) {
+    } else if (is_helium(lowercase_input) == 1) {
+      add_new_line();
+      get_element_details(&helium);
+      add_new_line();
+    } else if (is_lithium(lowercase_input) == 1) {
       add_new_line();
       get_element_details(&lithium);
       add_new_line();

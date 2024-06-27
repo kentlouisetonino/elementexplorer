@@ -15,6 +15,21 @@ int is_hydrogen(char *input) {
   return 0;
 }
 
+int is_helium(char *input) {
+  int is_hydrogen_symbol = strcmp(input, "he");
+  int is_hydrogen_name = strcmp(input, "helium");
+
+  if (is_hydrogen_symbol == 0) {
+    return 1;
+  }
+
+  if (is_hydrogen_name == 0) {
+    return 1;
+  }
+
+  return 0;
+}
+
 int is_lithium(char *input) {
   int is_hydrogen_symbol = strcmp(input, "li");
   int is_hydrogen_name = strcmp(input, "lithium");

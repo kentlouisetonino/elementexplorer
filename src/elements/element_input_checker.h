@@ -4,5 +4,6 @@
 
 extern int is_hydrogen(char* input);
 extern int is_lithium(char* input);
+extern int is_helium(char* input);
 
 #endif

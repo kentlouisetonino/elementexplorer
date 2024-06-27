@@ -19,26 +19,25 @@ struct element_type hydrogen = {
     "Henry Cavendish (1766)",
 };
 
-/*
-struct element_type {
-  char *symbol;
-  char *name;
-  char *atomic_number;
-  char *chemical_group_block;
-  char *atomic_mass;
-  char *standard_state;
-  char *electron_configuration;
-  char *oxidation_states;
-  char *electronegativity;
-  char *atomic_radius;
-  char *ionization_energy;
-  char *electron_affinity;
-  char *melting_point;
-  char *boiling_point;
-  char *density;
-  char *discovered_by;
+struct element_type helium = {
+    "He",
+    "Helium",
+    "2",
+    "Noble Gas",
+    "4.00260 u",
+    "Gas",
+    "1s2",
+    "0",
+    "N/A",
+    "140 pm",
+    "	24.587 eV",
+    "N/A",
+    "0.95 K",
+    "4.22 K",
+    "0.0001785 g/cm³",
+    "Jules Janssen & Joseph Norman Lockyer (1868)",
 };
-*/
+
 struct element_type lithium = {
     "Li",       "Lithium", "3",           "Alkali Metal",
     "7.0 u",    "Solid",   "[He]2s1",     "+1",
