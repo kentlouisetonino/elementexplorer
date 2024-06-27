@@ -44,3 +44,10 @@ struct element_type lithium = {
     "0.98",     "182 pm",  "5.392 eV",    "0.618 eV",
     "453.65 K", "1615 K",  "0.534 g/cm³", "Johan August Arfwedson (1817)",
 };
+
+struct element_type beryllium = {
+    "Be",         "Beryllium", "4",          "Alkaline Earth Metal",
+    "9.012183 u", "Solid",     "[He]2s2",    "+2",
+    "1.57",       "153 pm",    "9.323 eV",   "N/A",
+    "1560 K",     "2744 K",    "1.85 g/cm³", "Louis Nicolas Vauquelin (1798)",
+};

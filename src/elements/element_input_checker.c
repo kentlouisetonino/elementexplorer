@@ -44,3 +44,18 @@ int is_lithium(char *input) {
 
   return 0;
 }
+
+int is_beryllium(char *input) {
+  int is_hydrogen_symbol = strcmp(input, "be");
+  int is_hydrogen_name = strcmp(input, "beryllium");
+
+  if (is_hydrogen_symbol == 0) {
+    return 1;
+  }
+
+  if (is_hydrogen_name == 0) {
+    return 1;
+  }
+
+  return 0;
+}
