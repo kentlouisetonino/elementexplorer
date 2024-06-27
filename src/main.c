@@ -6,7 +6,7 @@
 #include "./elements/element_input_checker.h"
 #include "./elements/element_type.h"
 #include "./elements/get_element_details.h"
-#include "./inputs/get_input.c"
+#include "./inputs/get_input.h"
 #include "./inputs/get_lowercase_input.c"
 #include "./inputs/get_retry_input.c"
 #include <ctype.h>

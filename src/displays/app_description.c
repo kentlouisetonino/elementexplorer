@@ -1,6 +1,7 @@
 #include "./add_new_line.h"
 #include "./add_new_tab.h"
 #include "./color_codes.h"
+#include <stdio.h>
 
 void app_description(void) {
   add_new_tab();

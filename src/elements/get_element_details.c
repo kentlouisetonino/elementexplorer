@@ -1,11 +1,9 @@
+#include "../displays/add_new_line.h"
+#include "../displays/add_new_tab.h"
 #include "../displays/color_codes.h"
 #include "./element_type.h"
 #include <stdio.h>
 #include <string.h>
-
-// Function prototypes.
-void add_new_tab(void);
-void add_new_line(void);
 
 void get_element_details(struct element_type *element) {
   // Display symbol.

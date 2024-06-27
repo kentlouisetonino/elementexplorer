@@ -1,4 +1,5 @@
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 int is_hydrogen(char *input) {
   int is_hydrogen_symbol = strcmp(input, "h");

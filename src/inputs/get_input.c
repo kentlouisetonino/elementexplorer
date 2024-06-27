@@ -1,11 +1,9 @@
+#include "../displays/add_new_line.h"
+#include "../displays/add_new_tab.h"
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function prototypes for functions already imported in main.
-void add_new_tab(void);
-void add_new_line(void);
-
-char *get_input() {
+char *get_input(void) {
   // Allocate memory to draftInput pointer.
   char *draftInput = malloc(sizeof(char) * 100);
 
