@@ -90,3 +90,18 @@ int is_carbon(char *input) {
 
   return 0;
 }
+
+int is_nitrogen(char *input) {
+  int is_hydrogen_symbol = strcmp(input, "n");
+  int is_hydrogen_name = strcmp(input, "nitrogen");
+
+  if (is_hydrogen_symbol == 0) {
+    return 1;
+  }
+
+  if (is_hydrogen_name == 0) {
+    return 1;
+  }
+
+  return 0;
+}

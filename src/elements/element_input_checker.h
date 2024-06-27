@@ -8,5 +8,6 @@ extern int is_helium(char* input);
 extern int is_beryllium(char* input);
 extern int is_boron(char* input);
 extern int is_carbon(char* input);
+extern int is_nitrogen(char* input);
 
 #endif

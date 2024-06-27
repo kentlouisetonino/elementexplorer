@@ -90,3 +90,22 @@ struct element_type carbon = {
     "2.2670 g/cm³",
     "Egyptians and Sumerians (3750 BCE) or Antoine Lavoisier (1789)",
 };
+
+struct element_type nitrogen = {
+    "N",
+    "Nitrogen",
+    "7",
+    "Nonmetal",
+    "14.007 u",
+    "Gas",
+    "[He] 2s2 2p3",
+    "+5, +4, +3, +2, +1, -1, -2, -3",
+    "3.04",
+    "155 pm",
+    "14.534 eV",
+    "N/A",
+    "63.15 K",
+    "77.36 K",
+    "0.0012506 g/cm³",
+    "Daniel Rutherford (1772)",
+};

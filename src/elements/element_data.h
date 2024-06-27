@@ -8,5 +8,6 @@ extern struct element_type litium;
 extern struct element_type beryllium;
 extern struct element_type boron;
 extern struct element_type carbon;
+extern struct element_type nitrogen;
 
 #endif
