@@ -3,7 +3,7 @@
 #include "./displays/clear_terminal.h"
 #include "./displays/element_not_found.h"
 #include "./elements/element_data.h"
-#include "./elements/element_input_checker.h"
+#include "./elements/element_input_match.h"
 #include "./elements/element_type.h"
 #include "./elements/get_element_details.h"
 #include "./inputs/get_input.h"
@@ -34,31 +34,31 @@ int main(void) {
     lowercase_input = get_lowercase_input(input);
 
     // Display correct details.
-    if (is_hydrogen(lowercase_input) == 1) {
+    if (element_input_match(lowercase_input, "h", "hydrogen")) {
       add_new_line();
       get_element_details(&hydrogen);
       add_new_line();
-    } else if (is_helium(lowercase_input) == 1) {
+    } else if (element_input_match(lowercase_input, "h", "helium")) {
       add_new_line();
       get_element_details(&helium);
       add_new_line();
-    } else if (is_lithium(lowercase_input) == 1) {
+    } else if (element_input_match(lowercase_input, "li", "lithium")) {
       add_new_line();
       get_element_details(&lithium);
       add_new_line();
-    } else if (is_beryllium(lowercase_input) == 1) {
+    } else if (element_input_match(lowercase_input, "be", "beryllium")) {
       add_new_line();
       get_element_details(&beryllium);
       add_new_line();
-    } else if (is_boron(lowercase_input) == 1) {
+    } else if (element_input_match(lowercase_input, "b", "boron")) {
       add_new_line();
       get_element_details(&boron);
       add_new_line();
-    } else if (is_carbon(lowercase_input) == 1) {
+    } else if (element_input_match(lowercase_input, "c", "carbon")) {
       add_new_line();
       get_element_details(&carbon);
       add_new_line();
-    } else if (is_nitrogen(lowercase_input) == 1) {
+    } else if (element_input_match(lowercase_input, "n", "nitrogen")) {
       add_new_line();
       get_element_details(&nitrogen);
       add_new_line();
