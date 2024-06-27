@@ -41,7 +41,7 @@ struct element_type helium = {
 
 struct element_type lithium = {
     "Li",       "Lithium", "3",           "Alkali Metal",
-    "7.0 u",    "Solid",   "[He]2s1",     "+1",
+    "7.0 u",    "Solid",   "[He] 2s1",    "+1",
     "0.98",     "182 pm",  "5.392 eV",    "0.618 eV",
     "453.65 K", "1615 K",  "0.534 g/cm³", "Johan August Arfwedson (1817)",
 };
@@ -51,4 +51,23 @@ struct element_type beryllium = {
     "9.012183 u", "Solid",     "[He]2s2",    "+2",
     "1.57",       "153 pm",    "9.323 eV",   "N/A",
     "1560 K",     "2744 K",    "1.85 g/cm³", "Louis Nicolas Vauquelin (1798)",
+};
+
+struct element_type boron = {
+    "B",
+    "Boron",
+    "5",
+    "Metalloid",
+    "10.81 u",
+    "Solid",
+    "[He] 2s2 2p1",
+    "+3",
+    "2.04",
+    "192 pm",
+    "8.298 eV",
+    "0.277 eV",
+    "2348 K",
+    "4273 K",
+    "2.37 g/cm³",
+    "Joseph-Louis, Gay-Lussac, Louis-Jaques Thénard, and Humphry Davy (1808)",
 };
