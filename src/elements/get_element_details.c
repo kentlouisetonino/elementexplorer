@@ -7,22 +7,6 @@
 void add_new_tab(void);
 void add_new_line(void);
 
-// Check if input is Hydrogen.
-int is_hydrogen(char *input) {
-  int is_hydrogen_symbol = strcmp(input, "h");
-  int is_hydrogen_name = strcmp(input, "hydrogen");
-
-  if (is_hydrogen_symbol == 0) {
-    return 1;
-  }
-
-  if (is_hydrogen_name == 0) {
-    return 1;
-  }
-
-  return 0;
-}
-
 void get_element_details(struct element_type *element) {
   // Display symbol.
   add_new_tab();
@@ -111,6 +95,13 @@ void get_element_details(struct element_type *element) {
   add_new_tab();
   printf("%sMelting Point%s: %s%s%s", BLUE, RESET, YELLOW,
          element->melting_point, RESET);
+  add_new_line();
+
+  // Display melting point.
+  add_new_tab();
+  add_new_tab();
+  printf("%sBoiling Point%s: %s%s%s", BLUE, RESET, YELLOW,
+         element->boiling_point, RESET);
   add_new_line();
 
   // Display density.

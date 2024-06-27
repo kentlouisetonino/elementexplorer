@@ -15,6 +15,7 @@ struct element_type {
   char *ionization_energy;
   char *electron_affinity;
   char *melting_point;
+  char *boiling_point;
   char *density;
   char *discovered_by;
 };
