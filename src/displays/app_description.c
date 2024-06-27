@@ -1,10 +1,6 @@
-#include "./add_new_tab.c"
-#include "./color_codes.c"
-#include <stdio.h>
-
-// Function prototypes.
-void add_new_line(void);
-void add_new_tab(void);
+#include "./add_new_line.h"
+#include "./add_new_tab.h"
+#include "./color_codes.h"
 
 void app_description(void) {
   add_new_tab();

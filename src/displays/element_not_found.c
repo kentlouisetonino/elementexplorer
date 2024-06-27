@@ -1,8 +1,5 @@
-#include "./color_codes.c"
-#include <stdio.h>
-
-// Function prototype.
-void add_new_tab(void);
+#include "./add_new_tab.h"
+#include "./color_codes.h"
 
 void element_not_found(void) {
   add_new_tab();

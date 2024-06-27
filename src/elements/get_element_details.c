@@ -1,4 +1,4 @@
-#include "../displays/color_codes.c"
+#include "../displays/color_codes.h"
 #include "./element_type.h"
 #include <stdio.h>
 #include <string.h>
