@@ -7,5 +7,6 @@ extern struct element_type helium;
 extern struct element_type litium;
 extern struct element_type beryllium;
 extern struct element_type boron;
+extern struct element_type carbon;
 
 #endif

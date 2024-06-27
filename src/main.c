@@ -54,6 +54,10 @@ int main(void) {
       add_new_line();
       get_element_details(&boron);
       add_new_line();
+    } else if (is_carbon(lowercase_input) == 1) {
+      add_new_line();
+      get_element_details(&carbon);
+      add_new_line();
     } else {
       add_new_line();
       element_not_found();

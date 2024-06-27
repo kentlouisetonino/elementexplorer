@@ -71,3 +71,22 @@ struct element_type boron = {
     "2.37 g/cm³",
     "Joseph-Louis, Gay-Lussac, Louis-Jaques Thénard, and Humphry Davy (1808)",
 };
+
+struct element_type carbon = {
+    "C",
+    "Carbon",
+    "6",
+    "Nonmetal",
+    "12.011 u",
+    "Solid",
+    "[He] 2s2 2p2",
+    "+4, +2, -4",
+    "2.55",
+    "170 pm",
+    "11.260 eV",
+    "1.263 eV",
+    "3823 K",
+    "4098 K",
+    "2.2670 g/cm³",
+    "Egyptians and Sumerians (3750 BCE) or Antoine Lavoisier (1789)",
+};
