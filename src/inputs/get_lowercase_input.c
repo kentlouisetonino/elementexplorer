@@ -1,4 +1,4 @@
-#include "./remove_input_spaces.c"
+#include "./remove_input_spaces.h"
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>

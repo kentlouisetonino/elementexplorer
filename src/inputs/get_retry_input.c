@@ -1,12 +1,10 @@
+#include "../displays/add_new_tab.h"
+#include "./get_lowercase_input.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-// Function prototypes.
-void add_new_tab(void);
-char *get_lowercase_input(char *);
-
-int get_retry_input() {
+int get_retry_input(void) {
   char *retry_input = malloc(sizeof(char) * 5);
 
   add_new_tab();
