@@ -300,3 +300,23 @@ struct element_type phosphorus = {
     "1669",
     "https://pubchem.ncbi.nlm.nih.gov/element/15",
 };
+
+struct element_type sulfur = {
+    "S",
+    "Sulfur",
+    "16",
+    "Nonmetal",
+    "32.07 u",
+    "Solid",
+    "[Ne] 3s2 3p4",
+    "+6, +4, -2",
+    "2.58",
+    "180 pm",
+    "10.360 eV",
+    "2.077 eV",
+    "388.36 K",
+    "717.75 K",
+    "2.067 g/cm³",
+    "Ancient",
+    "https://pubchem.ncbi.nlm.nih.gov/element/16",
+};
