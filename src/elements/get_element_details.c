@@ -113,4 +113,10 @@ void get_element_details(struct element_type *element) {
   add_new_tab();
   printf("%sYear Discovered%s: %s%s%s", BLUE, RESET, YELLOW,
          element->year_discovered, RESET);
+  add_new_line();
+
+  // Display the reference link.
+  add_new_tab();
+  add_new_tab();
+  printf("%sLink%s: %s%s%s", BLUE, RESET, YELLOW, element->link, RESET);
 }

@@ -18,6 +18,7 @@ struct element_type {
   char *boiling_point;
   char *density;
   char *year_discovered;
+  char *link;
 };
 
 #endif
