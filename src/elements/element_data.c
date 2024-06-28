@@ -82,3 +82,10 @@ struct element_type neon = {
     "21.565 eV", "N/A",          "24.56 K", "27.07 K",   "0.0008999 g/cm³",
     "1898",
 };
+
+struct element_type sodium = {
+    "Na",           "Sodium", "11",         "Alkali Metal",
+    "22.9897693 u", "Solid",  "[Ne] 3s1",   "+1",
+    "0.93",         "227 pm", "5.139 eV",   "0.548 eV",
+    "370.95 K",     "1156 K", "0.97 g/cm³", "1807",
+};
