@@ -75,3 +75,10 @@ struct element_type fluorine = {
     "17.423 eV", "3.339 eV",     "53.53 K", "85.03 K", "0.001696 g/cm³",
     "1670",
 };
+
+struct element_type neon = {
+    "Ne",        "Neon",         "10",      "Noble Gas", "20.180 u",
+    "Gas",       "[He] 2s2 2p6", "0",       "N/Au",      "154 pm",
+    "21.565 eV", "N/A",          "24.56 K", "27.07 K",   "0.0008999 g/cm³",
+    "1898",
+};

@@ -17,7 +17,7 @@ struct element_type {
   char *melting_point;
   char *boiling_point;
   char *density;
-  char *discovered_by;
+  char *year_discovered;
 };
 
 #endif
