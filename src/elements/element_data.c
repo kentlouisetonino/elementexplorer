@@ -340,3 +340,23 @@ struct element_type chlorine = {
     "1774",
     "https://pubchem.ncbi.nlm.nih.gov/element/17",
 };
+
+struct element_type argon = {
+    "Ar",
+    "Argon",
+    "18",
+    "Noble Gas",
+    "39.9 u",
+    "Gas",
+    "[Ne] 3s2 3p6",
+    "0",
+    "N/A",
+    "188 pm",
+    "15.760 eV",
+    "N/A",
+    "83.8 K",
+    "87.3 K",
+    "0.0017837 g/cm³",
+    "1894",
+    "https://pubchem.ncbi.nlm.nih.gov/element/18",
+};
