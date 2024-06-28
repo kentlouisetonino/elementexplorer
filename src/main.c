@@ -62,6 +62,10 @@ int main(void) {
       add_new_line();
       get_element_details(&nitrogen);
       add_new_line();
+    } else if (element_input_match(lowercase_input, "o", "oxygen")) {
+      add_new_line();
+      get_element_details(&oxygen);
+      add_new_line();
     } else {
       add_new_line();
       element_not_found();

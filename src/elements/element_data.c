@@ -109,3 +109,22 @@ struct element_type nitrogen = {
     "0.0012506 g/cm³",
     "Daniel Rutherford (1772)",
 };
+
+struct element_type oxygen = {
+    "O",
+    "Oxygen",
+    "8",
+    "Nonmetal",
+    "15.999 u",
+    "Gas",
+    "[He] 2s2 2p4",
+    "-2",
+    "3.44",
+    "152 pm",
+    "13.618 eV",
+    "1.461 eV",
+    "54.36 K",
+    "90.2 K",
+    "0.001429 g/cm³",
+    "Carl-Wilhelm Scheele (1771) and Joseph Priestley (1774)",
+};
