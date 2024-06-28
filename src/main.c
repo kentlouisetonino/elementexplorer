@@ -63,6 +63,8 @@ int main(void) {
       get_element_details(&aluminum);
     } else if (element_input_match(lowercase_input, "si", "silicon")) {
       get_element_details(&silicon);
+    } else if (element_input_match(lowercase_input, "p", "phosphorus")) {
+      get_element_details(&phosphorus);
     } else {
       element_not_found();
     }

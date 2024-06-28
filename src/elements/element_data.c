@@ -280,3 +280,23 @@ struct element_type silicon = {
     "1854",
     "https://pubchem.ncbi.nlm.nih.gov/element/14",
 };
+
+struct element_type phosphorus = {
+    "P",
+    "Phosphorus",
+    "15",
+    "Nonmetal",
+    "30.97376200 u",
+    "Solid",
+    "[Ne] 3s2 3p3",
+    "+5, +3, -3",
+    "2.19",
+    "180 pm",
+    "10.487 eV",
+    "0.746 eV",
+    "317.3 K",
+    "553.65 K",
+    "1.82 g/cm³",
+    "1669",
+    "https://pubchem.ncbi.nlm.nih.gov/element/15",
+};

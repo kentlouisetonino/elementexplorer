@@ -16,5 +16,6 @@ extern struct element_type sodium;
 extern struct element_type magnesium;
 extern struct element_type aluminum;
 extern struct element_type silicon;
+extern struct element_type phosphorus;
 
 #endif
