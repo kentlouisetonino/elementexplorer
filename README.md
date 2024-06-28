@@ -2,8 +2,7 @@
 
 <br />
 
-![Screenshot from 2024-06-25 19-37-26](https://github.com/kentlouisetonino/elementexplorer/assets/69438999/986c0323-2581-4788-95d4-a6081e41295a)
-
+![Screenshot from 2024-06-28 19-22-53](https://github.com/kentlouisetonino/elementexplorer/assets/69438999/55068266-70b3-48cd-a8c8-047a2e4d29ce)
 
 <br />
 
