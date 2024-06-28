@@ -320,3 +320,23 @@ struct element_type sulfur = {
     "Ancient",
     "https://pubchem.ncbi.nlm.nih.gov/element/16",
 };
+
+struct element_type chlorine = {
+    "Cl",
+    "Chlorine",
+    "17",
+    "Halogen",
+    "35.45 u",
+    "Gas",
+    "[Ne] 3s2 3p5",
+    "+7, +5, +1, -1",
+    "3.16",
+    "175 pm",
+    "12.968 eV",
+    "3.617 eV",
+    "171.65 K",
+    "239.11 K",
+    "0.003214 g/cm³",
+    "1774",
+    "https://pubchem.ncbi.nlm.nih.gov/element/17",
+};

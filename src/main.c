@@ -67,6 +67,8 @@ int main(void) {
       get_element_details(&phosphorus);
     } else if (element_input_match(lowercase_input, "s", "sulfur")) {
       get_element_details(&sulfur);
+    } else if (element_input_match(lowercase_input, "cl", "chlorine")) {
+      get_element_details(&chlorine);
     } else {
       element_not_found();
     }
