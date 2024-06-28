@@ -240,3 +240,23 @@ struct element_type magnesium = {
     "1808",
     "https://pubchem.ncbi.nlm.nih.gov/element/12",
 };
+
+struct element_type aluminum = {
+    "Al",
+    "Aluminum",
+    "13",
+    "Post-Transition Metal",
+    "26.981538 u",
+    "Solid",
+    "[Ne] 3s2 3p1",
+    "+3",
+    "1.61",
+    "184 pm",
+    "5.986 eV",
+    "0.441 eV",
+    "933.437 K",
+    "2792 K",
+    "2.70 g/cm³",
+    "Ancient",
+    "https://pubchem.ncbi.nlm.nih.gov/element/13",
+};
