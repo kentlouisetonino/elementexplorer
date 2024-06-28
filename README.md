@@ -11,7 +11,8 @@
 
 > - This elements details are based on [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
-> - If you want to check how I made this project from scratch, you can view it [here](https://www.youtube.com/playlist?list=PLPks-uiro_XL84IxhrbVw2R9rOPb0lTuz). Spoiler alert, it's pretty boring.
+> - If you want to check how I made this project from scratch, you can view it <br />
+    [here](https://www.youtube.com/playlist?list=PLPks-uiro_XL84IxhrbVw2R9rOPb0lTuz). Spoiler alert, it's pretty boring.
 
 <br />
 <br />
