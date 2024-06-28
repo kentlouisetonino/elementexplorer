@@ -32,67 +32,41 @@ int main(void) {
     add_new_line();
     input = get_input();
     lowercase_input = get_lowercase_input(input);
+    add_new_line();
 
     // Display correct details.
     if (element_input_match(lowercase_input, "h", "hydrogen")) {
-      add_new_line();
       get_element_details(&hydrogen);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "h", "helium")) {
-      add_new_line();
       get_element_details(&helium);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "li", "lithium")) {
-      add_new_line();
       get_element_details(&lithium);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "be", "beryllium")) {
-      add_new_line();
       get_element_details(&beryllium);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "b", "boron")) {
-      add_new_line();
       get_element_details(&boron);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "c", "carbon")) {
-      add_new_line();
       get_element_details(&carbon);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "n", "nitrogen")) {
-      add_new_line();
       get_element_details(&nitrogen);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "o", "oxygen")) {
-      add_new_line();
       get_element_details(&oxygen);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "f", "fluorine")) {
-      add_new_line();
       get_element_details(&fluorine);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "ne", "neon")) {
-      add_new_line();
       get_element_details(&neon);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "na", "sodium")) {
-      add_new_line();
       get_element_details(&sodium);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "mg", "magnesium")) {
-      add_new_line();
       get_element_details(&magnesium);
-      add_new_line();
     } else if (element_input_match(lowercase_input, "al", "aluminum")) {
-      add_new_line();
       get_element_details(&aluminum);
-      add_new_line();
     } else {
-      add_new_line();
       element_not_found();
-      add_new_line();
     }
 
     // Ask user if want to try again | .
+    add_new_line();
     add_new_line();
     try_again = get_retry_input();
   }
