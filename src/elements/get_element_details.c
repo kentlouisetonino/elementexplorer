@@ -111,6 +111,6 @@ void get_element_details(struct element_type *element) {
   // Display year discovered.
   add_new_tab();
   add_new_tab();
-  printf("%sDiscovered By%s: %s%s%s", BLUE, RESET, YELLOW,
+  printf("%sYear Discovered%s: %s%s%s", BLUE, RESET, YELLOW,
          element->discovered_by, RESET);
 }
