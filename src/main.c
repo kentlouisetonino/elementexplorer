@@ -78,6 +78,10 @@ int main(void) {
       add_new_line();
       get_element_details(&sodium);
       add_new_line();
+    } else if (element_input_match(lowercase_input, "mg", "magnesium")) {
+      add_new_line();
+      get_element_details(&magnesium);
+      add_new_line();
     } else {
       add_new_line();
       element_not_found();

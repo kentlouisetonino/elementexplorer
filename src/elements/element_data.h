@@ -13,5 +13,6 @@ extern struct element_type oxygen;
 extern struct element_type fluorine;
 extern struct element_type neon;
 extern struct element_type sodium;
+extern struct element_type magnesium;
 
 #endif

@@ -89,3 +89,10 @@ struct element_type sodium = {
     "0.93",         "227 pm", "5.139 eV",   "0.548 eV",
     "370.95 K",     "1156 K", "0.97 g/cm³", "1807",
 };
+
+struct element_type magnesium = {
+    "Mg",       "Magnesium", "12",         "Alkaline Earth Metal",
+    "24.305 u", "Solid",     "[Ne] 3s2",   "+2",
+    "1.31",     "173 pm",    "7.646 eV",   "N/A",
+    "923 K",    "1363 K",    "1.74 g/cm³", "1808",
+};
