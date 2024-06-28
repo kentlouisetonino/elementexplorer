@@ -61,6 +61,8 @@ int main(void) {
       get_element_details(&magnesium);
     } else if (element_input_match(lowercase_input, "al", "aluminum")) {
       get_element_details(&aluminum);
+    } else if (element_input_match(lowercase_input, "si", "silicon")) {
+      get_element_details(&silicon);
     } else {
       element_not_found();
     }

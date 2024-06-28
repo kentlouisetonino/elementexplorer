@@ -260,3 +260,23 @@ struct element_type aluminum = {
     "Ancient",
     "https://pubchem.ncbi.nlm.nih.gov/element/13",
 };
+
+struct element_type silicon = {
+    "Si",
+    "Silicon",
+    "14",
+    "Metalloid",
+    "28.085 u",
+    "Solid",
+    "[Ne] 3s2 3p2",
+    "+4, +2, -4",
+    "1.9",
+    "210 pm",
+    "8.152 eV",
+    "1.385 eV",
+    "1687 K",
+    "3538 K",
+    "2.3296 g/cm³",
+    "1854",
+    "https://pubchem.ncbi.nlm.nih.gov/element/14",
+};
