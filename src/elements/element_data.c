@@ -520,3 +520,23 @@ struct element_type iron = {
     "Ancient",
     "https://pubchem.ncbi.nlm.nih.gov/element/26",
 };
+
+struct element_type cobalt = {
+    "Co",
+    "Cobalt",
+    "27",
+    "Transition Metal",
+    "58.93319 u",
+    "Solid",
+    "[Ar] 4s2 3d7",
+    "+3, +2",
+    "1.88",
+    "192 pm",
+    "7.881 eV",
+    "0.661 eV",
+    "1768 K",
+    "3200 K",
+    "8.86 g/cm³",
+    "1735",
+    "https://pubchem.ncbi.nlm.nih.gov/element/27",
+};

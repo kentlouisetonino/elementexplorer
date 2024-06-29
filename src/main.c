@@ -87,6 +87,8 @@ int main(void) {
       get_element_details(&manganese);
     } else if (element_input_match(lowercase_input, "fe", "iron")) {
       get_element_details(&iron);
+    } else if (element_input_match(lowercase_input, "co", "cobalt")) {
+      get_element_details(&cobalt);
     } else {
       element_not_found();
     }
