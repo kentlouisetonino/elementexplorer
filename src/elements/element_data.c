@@ -380,3 +380,23 @@ struct element_type potassium = {
     "1807",
     "https://pubchem.ncbi.nlm.nih.gov/element/19",
 };
+
+struct element_type calcium = {
+    "Ca",
+    "Calcium",
+    "20",
+    "Alkaline Earth Metal",
+    "40.08 u",
+    "Solid",
+    "[Ar] 4s2",
+    "+2",
+    "1",
+    "231 pm",
+    "6.113 eV",
+    "N/A",
+    "1115 K",
+    "1757 K",
+    "1.54 g/cm³",
+    "Ancient",
+    "https://pubchem.ncbi.nlm.nih.gov/element/20",
+};
