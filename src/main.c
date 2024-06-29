@@ -85,6 +85,8 @@ int main(void) {
       get_element_details(&chromium);
     } else if (element_input_match(lowercase_input, "mn", "manganese")) {
       get_element_details(&manganese);
+    } else if (element_input_match(lowercase_input, "fe", "iron")) {
+      get_element_details(&iron);
     } else {
       element_not_found();
     }

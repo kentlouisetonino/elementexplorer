@@ -27,5 +27,6 @@ extern struct element_type titanium;
 extern struct element_type vanadium;
 extern struct element_type chromium;
 extern struct element_type manganese;
+extern struct element_type iron;
 
 #endif

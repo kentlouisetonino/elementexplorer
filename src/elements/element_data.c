@@ -500,3 +500,23 @@ struct element_type manganese = {
     "1774",
     "https://pubchem.ncbi.nlm.nih.gov/element/25",
 };
+
+struct element_type iron = {
+    "Fe",
+    "Iron",
+    "26",
+    "Transition Metal",
+    "55.84 u",
+    "Solid",
+    "[Ar] 4s2 3d6",
+    "+3, +2",
+    "1.83",
+    "194 pm",
+    "7.902 eV",
+    "0.163 eV",
+    "1811 K",
+    "3134 K",
+    "7.874 g/cm³",
+    "Ancient",
+    "https://pubchem.ncbi.nlm.nih.gov/element/26",
+};
