@@ -540,3 +540,23 @@ struct element_type cobalt = {
     "1735",
     "https://pubchem.ncbi.nlm.nih.gov/element/27",
 };
+
+struct element_type nickel = {
+    "Ni",
+    "Nickel",
+    "28",
+    "Transition Metal",
+    "58.693 u",
+    "Solid",
+    "[Ar] 4s2 3d8",
+    "+3, +2",
+    "1.91",
+    "163 pm",
+    "7.640 eV",
+    "1.156 eV",
+    "1728 K",
+    "3186 K",
+    "8.912 g/cm³",
+    "1751",
+    "https://pubchem.ncbi.nlm.nih.gov/element/28",
+};
