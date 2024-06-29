@@ -99,6 +99,8 @@ int main(void) {
       get_element_details(&gallium);
     } else if (element_input_match(lowercase_input, "ge", "germanium")) {
       get_element_details(&germanium);
+    } else if (element_input_match(lowercase_input, "as", "arsenic")) {
+      get_element_details(&arsenic);
     } else {
       element_not_found();
     }

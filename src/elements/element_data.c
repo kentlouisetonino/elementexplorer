@@ -640,3 +640,23 @@ struct element_type germanium = {
     "1886",
     "https://pubchem.ncbi.nlm.nih.gov/element/32",
 };
+
+struct element_type arsenic = {
+    "As",
+    "Arsenic",
+    "33",
+    "Metalloid",
+    "72.63 u",
+    "Solid",
+    "[Ar] 4s2 3d10 4p3",
+    "+5, +3, -3",
+    "2.18",
+    "185 pm",
+    "9.815 eV",
+    "0.81 eV",
+    "1090 K",
+    "887 K",
+    "5.776 g/cm³",
+    "Ancient",
+    "https://pubchem.ncbi.nlm.nih.gov/element/33",
+};
