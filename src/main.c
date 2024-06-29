@@ -101,6 +101,8 @@ int main(void) {
       get_element_details(&germanium);
     } else if (element_input_match(lowercase_input, "as", "arsenic")) {
       get_element_details(&arsenic);
+    } else if (element_input_match(lowercase_input, "se", "selenium")) {
+      get_element_details(&selenium);
     } else {
       element_not_found();
     }

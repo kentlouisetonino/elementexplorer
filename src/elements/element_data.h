@@ -35,5 +35,6 @@ extern struct element_type zinc;
 extern struct element_type gallium;
 extern struct element_type germanium;
 extern struct element_type arsenic;
+extern struct element_type selenium;
 
 #endif

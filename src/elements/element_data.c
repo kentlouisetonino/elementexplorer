@@ -646,7 +646,7 @@ struct element_type arsenic = {
     "Arsenic",
     "33",
     "Metalloid",
-    "72.63 u",
+    "74.92159 u",
     "Solid",
     "[Ar] 4s2 3d10 4p3",
     "+5, +3, -3",
@@ -659,4 +659,24 @@ struct element_type arsenic = {
     "5.776 g/cm³",
     "Ancient",
     "https://pubchem.ncbi.nlm.nih.gov/element/33",
+};
+
+struct element_type selenium = {
+    "Se",
+    "Selenium",
+    "34",
+    "Nonmetal",
+    "78.97 u",
+    "Solid",
+    "[Ar] 4s2 3d10 4p4",
+    "+6, +4, -2",
+    "2.55",
+    "190 pm",
+    "9.752 eV",
+    "2.021 eV",
+    "493.65 K",
+    "958 K",
+    "4.809 g/cm³",
+    "1817",
+    "https://pubchem.ncbi.nlm.nih.gov/element/34",
 };
