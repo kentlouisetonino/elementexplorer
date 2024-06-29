@@ -560,3 +560,23 @@ struct element_type nickel = {
     "1751",
     "https://pubchem.ncbi.nlm.nih.gov/element/28",
 };
+
+struct element_type copper = {
+    "Cu",
+    "Copper",
+    "29",
+    "Transition Metal",
+    "63.55 u",
+    "Solid",
+    "[Ar] 4s1 3d10",
+    "+2, +1",
+    "1.9",
+    "140 pm",
+    "7.726 eV",
+    "1.228 eV",
+    "1357.77 K",
+    "2835 K",
+    "8.933 g/cm³",
+    "Ancient",
+    "https://pubchem.ncbi.nlm.nih.gov/element/29",
+};

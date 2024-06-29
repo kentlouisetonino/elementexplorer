@@ -91,6 +91,8 @@ int main(void) {
       get_element_details(&cobalt);
     } else if (element_input_match(lowercase_input, "ni", "nickel")) {
       get_element_details(&nickel);
+    } else if (element_input_match(lowercase_input, "cu", "copper")) {
+      get_element_details(&copper);
     } else {
       element_not_found();
     }
