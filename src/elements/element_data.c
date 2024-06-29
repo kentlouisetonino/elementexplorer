@@ -400,6 +400,7 @@ struct element_type calcium = {
     "Ancient",
     "https://pubchem.ncbi.nlm.nih.gov/element/20",
 };
+
 struct element_type scandium = {
     "Sc",
     "Scandium",
@@ -418,4 +419,24 @@ struct element_type scandium = {
     "2.99 g/cm³",
     "1879",
     "https://pubchem.ncbi.nlm.nih.gov/element/21",
+};
+
+struct element_type titanium = {
+    "Ti",
+    "titanium",
+    "22",
+    "Transition Metal",
+    "47.867 u",
+    "Solid",
+    "[Ar] 4s2 3d2",
+    "+4, +3, +2",
+    "1.54",
+    "187 pm",
+    "6.828 eV",
+    "0.079 eV",
+    "1941 K",
+    "3560 K",
+    "4.5 g/cm³",
+    "1791",
+    "https://pubchem.ncbi.nlm.nih.gov/element/22",
 };
