@@ -440,3 +440,23 @@ struct element_type titanium = {
     "1791",
     "https://pubchem.ncbi.nlm.nih.gov/element/22",
 };
+
+struct element_type vanadium = {
+    "V",
+    "Vanadium",
+    "23",
+    "Transition Metal",
+    "50.9415 u",
+    "Solid",
+    "[Ar] 4s2 3d3",
+    "+5, +4, +3, +2",
+    "1.63",
+    "179 pm",
+    "6.746 eV",
+    "0.525 eV",
+    "2183 K",
+    "3680 K",
+    "6.0 g/cm³",
+    "1801",
+    "https://pubchem.ncbi.nlm.nih.gov/element/23",
+};
