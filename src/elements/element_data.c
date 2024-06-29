@@ -620,3 +620,23 @@ struct element_type gallium = {
     "1875",
     "https://pubchem.ncbi.nlm.nih.gov/element/31",
 };
+
+struct element_type germanium = {
+    "Ge",
+    "Germanium",
+    "32",
+    "Metalloid",
+    "72.63 u",
+    "Solid",
+    "[Ar] 4s2 3d10 4p2",
+    "+4, +2",
+    "2.01",
+    "211 pm",
+    "7.900 eV",
+    "1.35 eV",
+    "1211.4 K",
+    "3106 K",
+    "5.323 g/cm³",
+    "1886",
+    "https://pubchem.ncbi.nlm.nih.gov/element/32",
+};

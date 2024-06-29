@@ -97,6 +97,8 @@ int main(void) {
       get_element_details(&zinc);
     } else if (element_input_match(lowercase_input, "ga", "gallium")) {
       get_element_details(&gallium);
+    } else if (element_input_match(lowercase_input, "ge", "germanium")) {
+      get_element_details(&germanium);
     } else {
       element_not_found();
     }
