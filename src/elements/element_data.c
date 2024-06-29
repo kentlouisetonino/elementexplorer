@@ -460,3 +460,23 @@ struct element_type vanadium = {
     "1801",
     "https://pubchem.ncbi.nlm.nih.gov/element/23",
 };
+
+struct element_type chromium = {
+    "Cr",
+    "Chromium",
+    "24",
+    "Transition Metal",
+    "51.996 u",
+    "Solid",
+    "[Ar] 3d5 4s1",
+    "+6, +3, +2",
+    "1.66",
+    "189 pm",
+    "6.767 eV",
+    "0.666 eV",
+    "2180 K",
+    "2944 K",
+    "7.15 g/cm³",
+    "1797",
+    "https://pubchem.ncbi.nlm.nih.gov/element/24",
+};

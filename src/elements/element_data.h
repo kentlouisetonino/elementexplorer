@@ -25,5 +25,6 @@ extern struct element_type calcium;
 extern struct element_type scandium;
 extern struct element_type titanium;
 extern struct element_type vanadium;
+extern struct element_type chromium;
 
 #endif
