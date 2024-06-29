@@ -580,3 +580,23 @@ struct element_type copper = {
     "Ancient",
     "https://pubchem.ncbi.nlm.nih.gov/element/29",
 };
+
+struct element_type zinc = {
+    "Zn",
+    "Zinc",
+    "30",
+    "Transition Metal",
+    "65.4 u",
+    "Solid",
+    "[Ar] 4s2 3d10",
+    "+2",
+    "1.65",
+    "139 pm",
+    "9.394 eV",
+    "N/A",
+    "692.68 K",
+    "1180 K",
+    "7.134 g/cm³",
+    "1746",
+    "https://pubchem.ncbi.nlm.nih.gov/element/30",
+};
