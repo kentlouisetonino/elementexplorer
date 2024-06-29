@@ -600,3 +600,23 @@ struct element_type zinc = {
     "1746",
     "https://pubchem.ncbi.nlm.nih.gov/element/30",
 };
+
+struct element_type gallium = {
+    "Ga",
+    "Gallium",
+    "31",
+    "Post-Transition Metal",
+    "69.723 u",
+    "Solid",
+    "[Ar] 4s2 3d10 4p1",
+    "+3",
+    "1.81",
+    "187 pm",
+    "5.999 eV",
+    "0.3 eV",
+    "302.91 K",
+    "2477 K",
+    "5.91 g/cm³",
+    "1875",
+    "https://pubchem.ncbi.nlm.nih.gov/element/31",
+};

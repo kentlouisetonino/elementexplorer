@@ -95,6 +95,8 @@ int main(void) {
       get_element_details(&copper);
     } else if (element_input_match(lowercase_input, "zn", "zinc")) {
       get_element_details(&zinc);
+    } else if (element_input_match(lowercase_input, "ga", "gallium")) {
+      get_element_details(&gallium);
     } else {
       element_not_found();
     }

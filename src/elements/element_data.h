@@ -32,5 +32,6 @@ extern struct element_type cobalt;
 extern struct element_type nickel;
 extern struct element_type copper;
 extern struct element_type zinc;
+extern struct element_type gallium;
 
 #endif
