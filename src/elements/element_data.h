@@ -22,5 +22,6 @@ extern struct element_type chlorine;
 extern struct element_type argon;
 extern struct element_type potassium;
 extern struct element_type calcium;
+extern struct element_type scandium;
 
 #endif

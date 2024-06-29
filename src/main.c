@@ -75,6 +75,8 @@ int main(void) {
       get_element_details(&potassium);
     } else if (element_input_match(lowercase_input, "ca", "calcium")) {
       get_element_details(&calcium);
+    } else if (element_input_match(lowercase_input, "sc", "scandium")) {
+      get_element_details(&scandium);
     } else {
       element_not_found();
     }
