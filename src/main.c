@@ -83,6 +83,8 @@ int main(void) {
       get_element_details(&vanadium);
     } else if (element_input_match(lowercase_input, "cr", "chromium")) {
       get_element_details(&chromium);
+    } else if (element_input_match(lowercase_input, "mn", "manganese")) {
+      get_element_details(&manganese);
     } else {
       element_not_found();
     }

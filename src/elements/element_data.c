@@ -480,3 +480,23 @@ struct element_type chromium = {
     "1797",
     "https://pubchem.ncbi.nlm.nih.gov/element/24",
 };
+
+struct element_type manganese = {
+    "Mn",
+    "Manganese",
+    "25",
+    "Transition Metal",
+    "54.93804 u",
+    "Solid",
+    "[Ar] 4s2 3d5",
+    "+7, +4, +3, +2",
+    "1.55",
+    "197 pm",
+    "7.434 eV",
+    "N/A",
+    "1519 K",
+    "2334 K",
+    "7.3 g/cm³",
+    "1774",
+    "https://pubchem.ncbi.nlm.nih.gov/element/25",
+};
