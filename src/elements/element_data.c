@@ -360,3 +360,23 @@ struct element_type argon = {
     "1894",
     "https://pubchem.ncbi.nlm.nih.gov/element/18",
 };
+
+struct element_type potassium = {
+    "K",
+    "Potassium",
+    "19",
+    "Alkali Metal",
+    "39.0983 u",
+    "Solid",
+    "[Ar] 4s1",
+    "+1",
+    "0.82",
+    "275 pm",
+    "4.341 eV",
+    "0.501 eV",
+    "336.53 K",
+    "1032 K",
+    "0.89 g/cm³",
+    "1807",
+    "https://pubchem.ncbi.nlm.nih.gov/element/19",
+};

@@ -71,6 +71,8 @@ int main(void) {
       get_element_details(&chlorine);
     } else if (element_input_match(lowercase_input, "ar", "argon")) {
       get_element_details(&argon);
+    } else if (element_input_match(lowercase_input, "k", "potassium")) {
+      get_element_details(&potassium);
     } else {
       element_not_found();
     }

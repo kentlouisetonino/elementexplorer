@@ -20,5 +20,6 @@ extern struct element_type phosphorus;
 extern struct element_type sulfur;
 extern struct element_type chlorine;
 extern struct element_type argon;
+extern struct element_type potassium;
 
 #endif
