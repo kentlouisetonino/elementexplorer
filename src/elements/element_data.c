@@ -700,3 +700,23 @@ struct element_type bromine = {
     "1826",
     "https://pubchem.ncbi.nlm.nih.gov/element/35",
 };
+
+struct element_type krypton = {
+    "Kr",
+    "Krypton",
+    "36",
+    "Noble Gas",
+    "83.80 u",
+    "Gas",
+    "[Ar] 4s2 3d10 4p6",
+    "0",
+    "3",
+    "202 pm",
+    "14.000 eV",
+    "N/A",
+    "115.79 K",
+    "119.93 K",
+    "0.003733 g/cm³",
+    "1898",
+    "https://pubchem.ncbi.nlm.nih.gov/element/36",
+};

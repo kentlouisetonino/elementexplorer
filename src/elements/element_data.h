@@ -44,5 +44,6 @@ extern struct element_type germanium;
 extern struct element_type arsenic;
 extern struct element_type selenium;
 extern struct element_type bromine;
+extern struct element_type krypton;
 
 #endif
