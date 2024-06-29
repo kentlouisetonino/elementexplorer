@@ -103,6 +103,8 @@ int main(void) {
       get_element_details(&arsenic);
     } else if (element_input_match(lowercase_input, "se", "selenium")) {
       get_element_details(&selenium);
+    } else if (element_input_match(lowercase_input, "br", "bromine")) {
+      get_element_details(&bromine);
     } else {
       element_not_found();
     }

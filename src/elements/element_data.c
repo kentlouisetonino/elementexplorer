@@ -680,3 +680,23 @@ struct element_type selenium = {
     "1817",
     "https://pubchem.ncbi.nlm.nih.gov/element/34",
 };
+
+struct element_type bromine = {
+    "Br",
+    "Bromine",
+    "35",
+    "Halogen",
+    "79.90 u",
+    "Liquid",
+    "[Ar] 4s2 3d10 4p5",
+    "+5, +1, -1",
+    "2.96",
+    "183 pm",
+    "11.814 eV",
+    "3.365 eV",
+    "265.95 K",
+    "331.95 K",
+    "3.11 g/cm³",
+    "1826",
+    "https://pubchem.ncbi.nlm.nih.gov/element/35",
+};

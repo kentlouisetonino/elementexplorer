@@ -2,8 +2,11 @@
 #define ELEMENT_DATA_H
 #include "./element_data.c"
 
+// 1st period elements.
 extern struct element_type hydrogen;
 extern struct element_type helium;
+
+// 2nd period elements.
 extern struct element_type litium;
 extern struct element_type beryllium;
 extern struct element_type boron;
@@ -12,6 +15,8 @@ extern struct element_type nitrogen;
 extern struct element_type oxygen;
 extern struct element_type fluorine;
 extern struct element_type neon;
+
+// 3rd period elements.
 extern struct element_type sodium;
 extern struct element_type magnesium;
 extern struct element_type aluminum;
@@ -20,6 +25,8 @@ extern struct element_type phosphorus;
 extern struct element_type sulfur;
 extern struct element_type chlorine;
 extern struct element_type argon;
+
+// 4th period elements.
 extern struct element_type potassium;
 extern struct element_type calcium;
 extern struct element_type scandium;
@@ -36,5 +43,6 @@ extern struct element_type gallium;
 extern struct element_type germanium;
 extern struct element_type arsenic;
 extern struct element_type selenium;
+extern struct element_type bromine;
 
 #endif
