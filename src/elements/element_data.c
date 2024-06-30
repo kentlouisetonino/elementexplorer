@@ -721,6 +721,26 @@ element_details krypton = {
     "https://pubchem.ncbi.nlm.nih.gov/element/36",
 };
 
+element_details rubidium = {
+    "Rb",
+    "Rubidium",
+    "37",
+    "Alkali Metal",
+    "85.468 u",
+    "Solid",
+    "[Kr] 5s1",
+    "+1",
+    "0.82",
+    "303 pm",
+    "4.177 eV",
+    "0.468 eV",
+    "312.46 K",
+    "961 K",
+    "1.53 g/cm³",
+    "1861",
+    "https://pubchem.ncbi.nlm.nih.gov/element/37",
+};
+
 element elements[] = {
     {"h", "hydrogen", &hydrogen},     {"he", "helium", &helium},
     {"li", "lithium", &lithium},      {"be", "beryllium", &beryllium},
@@ -740,4 +760,5 @@ element elements[] = {
     {"ga", "gallium", &gallium},      {"ge", "germanium", &germanium},
     {"as", "arsenic", &arsenic},      {"se", "selenium", &selenium},
     {"br", "bromine", &bromine},      {"kr", "krypton", &krypton},
+    {"rb", "rubidium", &rubidium},
 };
