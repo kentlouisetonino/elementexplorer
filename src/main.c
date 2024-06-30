@@ -42,7 +42,7 @@ int main(void) {
       char *current_name = current_element.name;
 
       if (element_input_match(lowercase_input, current_symbol, current_name)) {
-        get_element_details(current_element.element_type);
+        get_element_details(current_element.element_details);
         no_match = 0;
         break;
       }

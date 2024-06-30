@@ -4,48 +4,4 @@
 
 extern element elements[];
 
-// 1st period elements.
-extern struct element_type hydrogen;
-extern struct element_type helium;
-
-// 2nd period elements.
-extern struct element_type litium;
-extern struct element_type beryllium;
-extern struct element_type boron;
-extern struct element_type carbon;
-extern struct element_type nitrogen;
-extern struct element_type oxygen;
-extern struct element_type fluorine;
-extern struct element_type neon;
-
-// 3rd period elements.
-extern struct element_type sodium;
-extern struct element_type magnesium;
-extern struct element_type aluminum;
-extern struct element_type silicon;
-extern struct element_type phosphorus;
-extern struct element_type sulfur;
-extern struct element_type chlorine;
-extern struct element_type argon;
-
-// 4th period elements.
-extern struct element_type potassium;
-extern struct element_type calcium;
-extern struct element_type scandium;
-extern struct element_type titanium;
-extern struct element_type vanadium;
-extern struct element_type chromium;
-extern struct element_type manganese;
-extern struct element_type iron;
-extern struct element_type cobalt;
-extern struct element_type nickel;
-extern struct element_type copper;
-extern struct element_type zinc;
-extern struct element_type gallium;
-extern struct element_type germanium;
-extern struct element_type arsenic;
-extern struct element_type selenium;
-extern struct element_type bromine;
-extern struct element_type krypton;
-
 #endif

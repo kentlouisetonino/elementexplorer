@@ -1,13 +1,8 @@
 #ifndef ELEMENT_TYPE_H
 #define ELEMENT_TYPE_H
 
-typedef struct {
-  char *symbol;
-  char *name;
-  struct element_type *element_type;
-} element;
 
-struct element_type {
+typedef struct {
   char *symbol;
   char *name;
   char *atomic_number;
@@ -25,6 +20,12 @@ struct element_type {
   char *density;
   char *year_discovered;
   char *link;
-};
+} element_details;
+
+typedef struct {
+  char *symbol;
+  char *name;
+  element_details *element_details;
+} element;
 
 #endif

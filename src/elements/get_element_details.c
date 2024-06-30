@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void get_element_details(struct element_type *element) {
+void get_element_details(element_details *element) {
   // Display symbol.
   add_new_tab();
   add_new_tab();

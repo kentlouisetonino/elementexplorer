@@ -1,7 +1,7 @@
 #include "./element_type.h"
 #include <stdio.h>
 
-struct element_type hydrogen = {
+element_details hydrogen = {
     "H",
     "Hydrogen",
     "1",
@@ -21,7 +21,7 @@ struct element_type hydrogen = {
     "https://pubchem.ncbi.nlm.nih.gov/element/1",
 };
 
-struct element_type helium = {
+element_details helium = {
     "He",
     "Helium",
     "2",
@@ -41,7 +41,7 @@ struct element_type helium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/2",
 };
 
-struct element_type lithium = {
+element_details lithium = {
     "Li",
     "Lithium",
     "3",
@@ -61,7 +61,7 @@ struct element_type lithium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/3",
 };
 
-struct element_type beryllium = {
+element_details beryllium = {
     "Be",
     "Beryllium",
     "4",
@@ -81,7 +81,7 @@ struct element_type beryllium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/4",
 };
 
-struct element_type boron = {
+element_details boron = {
     "B",
     "Boron",
     "5",
@@ -101,7 +101,7 @@ struct element_type boron = {
     "https://pubchem.ncbi.nlm.nih.gov/element/5",
 };
 
-struct element_type carbon = {
+element_details carbon = {
     "C",
     "Carbon",
     "6",
@@ -121,7 +121,7 @@ struct element_type carbon = {
     "https://pubchem.ncbi.nlm.nih.gov/element/6",
 };
 
-struct element_type nitrogen = {
+element_details nitrogen = {
     "N",
     "Nitrogen",
     "7",
@@ -141,7 +141,7 @@ struct element_type nitrogen = {
     "https://pubchem.ncbi.nlm.nih.gov/element/7",
 };
 
-struct element_type oxygen = {
+element_details oxygen = {
     "O",
     "Oxygen",
     "8",
@@ -161,7 +161,7 @@ struct element_type oxygen = {
     "https://pubchem.ncbi.nlm.nih.gov/element/8",
 };
 
-struct element_type fluorine = {
+element_details fluorine = {
     "F",
     "Fluorine",
     "9",
@@ -181,7 +181,7 @@ struct element_type fluorine = {
     "https://pubchem.ncbi.nlm.nih.gov/element/9",
 };
 
-struct element_type neon = {
+element_details neon = {
     "Ne",
     "Neon",
     "10",
@@ -201,7 +201,7 @@ struct element_type neon = {
     "https://pubchem.ncbi.nlm.nih.gov/element/10",
 };
 
-struct element_type sodium = {
+element_details sodium = {
     "Na",
     "Sodium",
     "11",
@@ -221,7 +221,7 @@ struct element_type sodium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/11",
 };
 
-struct element_type magnesium = {
+element_details magnesium = {
     "Mg",
     "Magnesium",
     "12",
@@ -241,7 +241,7 @@ struct element_type magnesium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/12",
 };
 
-struct element_type aluminum = {
+element_details aluminum = {
     "Al",
     "Aluminum",
     "13",
@@ -261,7 +261,7 @@ struct element_type aluminum = {
     "https://pubchem.ncbi.nlm.nih.gov/element/13",
 };
 
-struct element_type silicon = {
+element_details silicon = {
     "Si",
     "Silicon",
     "14",
@@ -281,7 +281,7 @@ struct element_type silicon = {
     "https://pubchem.ncbi.nlm.nih.gov/element/14",
 };
 
-struct element_type phosphorus = {
+element_details phosphorus = {
     "P",
     "Phosphorus",
     "15",
@@ -301,7 +301,7 @@ struct element_type phosphorus = {
     "https://pubchem.ncbi.nlm.nih.gov/element/15",
 };
 
-struct element_type sulfur = {
+element_details sulfur = {
     "S",
     "Sulfur",
     "16",
@@ -321,7 +321,7 @@ struct element_type sulfur = {
     "https://pubchem.ncbi.nlm.nih.gov/element/16",
 };
 
-struct element_type chlorine = {
+element_details chlorine = {
     "Cl",
     "Chlorine",
     "17",
@@ -341,7 +341,7 @@ struct element_type chlorine = {
     "https://pubchem.ncbi.nlm.nih.gov/element/17",
 };
 
-struct element_type argon = {
+element_details argon = {
     "Ar",
     "Argon",
     "18",
@@ -361,7 +361,7 @@ struct element_type argon = {
     "https://pubchem.ncbi.nlm.nih.gov/element/18",
 };
 
-struct element_type potassium = {
+element_details potassium = {
     "K",
     "Potassium",
     "19",
@@ -381,7 +381,7 @@ struct element_type potassium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/19",
 };
 
-struct element_type calcium = {
+element_details calcium = {
     "Ca",
     "Calcium",
     "20",
@@ -401,7 +401,7 @@ struct element_type calcium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/20",
 };
 
-struct element_type scandium = {
+element_details scandium = {
     "Sc",
     "Scandium",
     "21",
@@ -421,7 +421,7 @@ struct element_type scandium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/21",
 };
 
-struct element_type titanium = {
+element_details titanium = {
     "Ti",
     "titanium",
     "22",
@@ -441,7 +441,7 @@ struct element_type titanium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/22",
 };
 
-struct element_type vanadium = {
+element_details vanadium = {
     "V",
     "Vanadium",
     "23",
@@ -461,7 +461,7 @@ struct element_type vanadium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/23",
 };
 
-struct element_type chromium = {
+element_details chromium = {
     "Cr",
     "Chromium",
     "24",
@@ -481,7 +481,7 @@ struct element_type chromium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/24",
 };
 
-struct element_type manganese = {
+element_details manganese = {
     "Mn",
     "Manganese",
     "25",
@@ -501,7 +501,7 @@ struct element_type manganese = {
     "https://pubchem.ncbi.nlm.nih.gov/element/25",
 };
 
-struct element_type iron = {
+element_details iron = {
     "Fe",
     "Iron",
     "26",
@@ -521,7 +521,7 @@ struct element_type iron = {
     "https://pubchem.ncbi.nlm.nih.gov/element/26",
 };
 
-struct element_type cobalt = {
+element_details cobalt = {
     "Co",
     "Cobalt",
     "27",
@@ -541,7 +541,7 @@ struct element_type cobalt = {
     "https://pubchem.ncbi.nlm.nih.gov/element/27",
 };
 
-struct element_type nickel = {
+element_details nickel = {
     "Ni",
     "Nickel",
     "28",
@@ -561,7 +561,7 @@ struct element_type nickel = {
     "https://pubchem.ncbi.nlm.nih.gov/element/28",
 };
 
-struct element_type copper = {
+element_details copper = {
     "Cu",
     "Copper",
     "29",
@@ -581,7 +581,7 @@ struct element_type copper = {
     "https://pubchem.ncbi.nlm.nih.gov/element/29",
 };
 
-struct element_type zinc = {
+element_details zinc = {
     "Zn",
     "Zinc",
     "30",
@@ -601,7 +601,7 @@ struct element_type zinc = {
     "https://pubchem.ncbi.nlm.nih.gov/element/30",
 };
 
-struct element_type gallium = {
+element_details gallium = {
     "Ga",
     "Gallium",
     "31",
@@ -621,7 +621,7 @@ struct element_type gallium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/31",
 };
 
-struct element_type germanium = {
+element_details germanium = {
     "Ge",
     "Germanium",
     "32",
@@ -641,7 +641,7 @@ struct element_type germanium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/32",
 };
 
-struct element_type arsenic = {
+element_details arsenic = {
     "As",
     "Arsenic",
     "33",
@@ -661,7 +661,7 @@ struct element_type arsenic = {
     "https://pubchem.ncbi.nlm.nih.gov/element/33",
 };
 
-struct element_type selenium = {
+element_details selenium = {
     "Se",
     "Selenium",
     "34",
@@ -681,7 +681,7 @@ struct element_type selenium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/34",
 };
 
-struct element_type bromine = {
+element_details bromine = {
     "Br",
     "Bromine",
     "35",
@@ -701,7 +701,7 @@ struct element_type bromine = {
     "https://pubchem.ncbi.nlm.nih.gov/element/35",
 };
 
-struct element_type krypton = {
+element_details krypton = {
     "Kr",
     "Krypton",
     "36",
