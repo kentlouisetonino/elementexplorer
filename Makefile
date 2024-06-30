@@ -1,10 +1,10 @@
-Compile:
+Build:
 	gcc -g -o src/main src/main.c
 
 App:
-	make Compile
-	./src/main
+	make Build
+	src/main
 
 Debug:
-	make Compile
+	make Build
 	gdb src/main
