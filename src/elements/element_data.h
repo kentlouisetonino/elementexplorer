@@ -2,6 +2,8 @@
 #define ELEMENT_DATA_H
 #include "./element_data.c"
 
+extern element elements[];
+
 // 1st period elements.
 extern struct element_type hydrogen;
 extern struct element_type helium;

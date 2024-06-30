@@ -720,3 +720,24 @@ struct element_type krypton = {
     "1898",
     "https://pubchem.ncbi.nlm.nih.gov/element/36",
 };
+
+element elements[] = {
+    {"h", "hydrogen", &hydrogen},     {"he", "helium", &helium},
+    {"li", "lithium", &lithium},      {"be", "beryllium", &beryllium},
+    {"b", "boron", &boron},           {"c", "carbon", &carbon},
+    {"n", "nitrogen", &nitrogen},     {"o", "oxygen", &oxygen},
+    {"f", "fluorine", &fluorine},     {"ne", "neon", &neon},
+    {"na", "sodium", &sodium},        {"mg", "magnesium", &magnesium},
+    {"al", "aluminum", &aluminum},    {"si", "silicon", &silicon},
+    {"p", "phosphorus", &phosphorus}, {"s", "sulfur", &sulfur},
+    {"cl", "chlorine", &chlorine},    {"ar", "argon", &argon},
+    {"k", "potassium", &potassium},   {"ca", "calcium", &calcium},
+    {"sc", "scandium", &scandium},    {"ti", "titanium", &titanium},
+    {"v", "vanadium", &vanadium},     {"cr", "chromium", &chromium},
+    {"mn", "manganese", &manganese},  {"fe", "iron", &iron},
+    {"co", "cobalt", &cobalt},        {"ni", "nickel", &nickel},
+    {"cu", "copper", &copper},        {"zn", "zinc", &zinc},
+    {"ga", "gallium", &gallium},      {"ge", "germanium", &germanium},
+    {"as", "arsenic", &arsenic},      {"se", "selenium", &selenium},
+    {"br", "bromine", &bromine},      {"kr", "krypton", &krypton},
+};
