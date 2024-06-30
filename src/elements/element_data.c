@@ -741,6 +741,46 @@ element_details rubidium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/37",
 };
 
+element_details strontium = {
+    "sr",
+    "strontium",
+    "38",
+    "Alkaline Earth Metal",
+    "87.62 u",
+    "Solid",
+    "[Kr] 5s2",
+    "+2",
+    "0.95",
+    "249 pm",
+    "5.695 eV",
+    "N/A",
+    "1050 K",
+    "1655 K",
+    "2.64 g/cm³",
+    "1790",
+    "https://pubchem.ncbi.nlm.nih.gov/element/38",
+};
+
+element_details yttrium = {
+    "y",
+    "yttrium",
+    "39",
+    "Transition Metal",
+    "88.90584 u",
+    "Solid",
+    "[Kr] 5s2 4d1",
+    "+3",
+    "1.22",
+    "219 pm",
+    "6.217 eV",
+    "0.307 eV",
+    "1795 K",
+    "3618 K",
+    "4.47 g/cm³",
+    "1794",
+    "https://pubchem.ncbi.nlm.nih.gov/element/39",
+};
+
 element elements[] = {
     {"h", "hydrogen", &hydrogen},     {"he", "helium", &helium},
     {"li", "lithium", &lithium},      {"be", "beryllium", &beryllium},
@@ -760,5 +800,6 @@ element elements[] = {
     {"ga", "gallium", &gallium},      {"ge", "germanium", &germanium},
     {"as", "arsenic", &arsenic},      {"se", "selenium", &selenium},
     {"br", "bromine", &bromine},      {"kr", "krypton", &krypton},
-    {"rb", "rubidium", &rubidium},
+    {"rb", "rubidium", &rubidium},    {"sr", "strontium", &strontium},
+    {"y", "yttrium", &yttrium},
 };
