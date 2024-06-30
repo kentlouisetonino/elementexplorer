@@ -781,6 +781,46 @@ element_details yttrium = {
     "https://pubchem.ncbi.nlm.nih.gov/element/39",
 };
 
+element_details zirconium = {
+    "Zr",
+    "Zirconium",
+    "40",
+    "Transition Metal",
+    "91.22 u",
+    "Solid",
+    "[Kr] 5s2 4d2",
+    "+4",
+    "1.33",
+    "186 pm",
+    "6.634 eV",
+    "0.426 eV",
+    "2128 K",
+    "4682 K",
+    "6.52 g/cm³",
+    "1789",
+    "https://pubchem.ncbi.nlm.nih.gov/element/40",
+};
+
+element_details niobium = {
+    "Nb",
+    "Niobium",
+    "41",
+    "Transition Metal",
+    "92.90637 u",
+    "Solid",
+    "[Kr] 5s1 4d4",
+    "+5, +3",
+    "1.6",
+    "207 pm",
+    "6.759 eV",
+    "0.893 eV",
+    "2750 K",
+    "5017 K",
+    "8.57 g/cm³",
+    "1801",
+    "https://pubchem.ncbi.nlm.nih.gov/element/41",
+};
+
 element elements[] = {
     {"h", "hydrogen", &hydrogen},     {"he", "helium", &helium},
     {"li", "lithium", &lithium},      {"be", "beryllium", &beryllium},
@@ -801,5 +841,6 @@ element elements[] = {
     {"as", "arsenic", &arsenic},      {"se", "selenium", &selenium},
     {"br", "bromine", &bromine},      {"kr", "krypton", &krypton},
     {"rb", "rubidium", &rubidium},    {"sr", "strontium", &strontium},
-    {"y", "yttrium", &yttrium},
+    {"y", "yttrium", &yttrium},       {"zr", "zirconium", &zirconium},
+    {"nb", "niobium", &niobium},
 };
