@@ -10,9 +10,6 @@
 
 > - Elements details are based on [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
-> - If you want to check how I made this project, you can <br />
-    view it [here](https://www.youtube.com/playlist?list=PLPks-uiro_XL84IxhrbVw2R9rOPb0lTuz). Spoiler alert: it's monotonous and boring.
-
 <br />
 <br />
 
