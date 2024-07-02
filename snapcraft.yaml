@@ -1,0 +1,5 @@
+name: element-explorer
+base: core22
+version: "0.0.7"
+summary: A CLI tool for element details.
+description: A CLI tool for element details.
