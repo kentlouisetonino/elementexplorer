@@ -12,10 +12,9 @@ int get_retry_input(void) {
   printf("Try again (y | n): ");
   fgets(retry_input, 5, stdin);
 
-  char *lower_retry_input = get_lowercase_input(retry_input);
+  char *clean_input = get_lowercase_input(retry_input);
 
-  if (strcmp(lower_retry_input, "y") == 0 ||
-      strcmp(lower_retry_input, "yes") == 0) {
+  if (strcmp(clean_input, "y") == 0 || strcmp(clean_input, "yes") == 0) {
     return 1;
   } else {
     return 0;
