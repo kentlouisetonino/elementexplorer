@@ -14,14 +14,10 @@ int get_retry_input(void) {
 
   char *lower_retry_input = get_lowercase_input(retry_input);
 
-  if (strcmp(retry_input, "y") == 0 || strcmp(retry_input, "yes") == 0) {
+  if (strcmp(lower_retry_input, "y") == 0 ||
+      strcmp(lower_retry_input, "yes") == 0) {
     return 1;
   } else {
-    add_new_tab();
-    add_new_tab();
-    printf(" Good Bye! 😀");
-    exit(0);
+    return 0;
   }
-
-  return 0;
 }

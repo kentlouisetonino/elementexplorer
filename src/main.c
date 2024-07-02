@@ -1,5 +1,6 @@
 #include "./displays/add_new_line.h"
 #include "./displays/app_description.h"
+#include "./displays/app_exit.h"
 #include "./displays/clear_terminal.h"
 #include "./displays/element_not_found.h"
 #include "./elements/element_data.h"
@@ -60,6 +61,8 @@ int main(void) {
   }
 
   // Add some spaces before the exit.
+  add_new_line();
+  app_exit();
   add_new_line();
   add_new_line();
 
