@@ -1,7 +1,9 @@
 #ifndef DATA_H
 #define DATA_H
 #include "./elements_1st_period.c"
-
-extern element_details hydrogen;
-
+#include "./elements_2nd_period.c"
+#include "./elements_3rd_period.c"
+#include "./elements_4th_period.c"
+#include "./elements_5th_period.c"
+#include "./elements_6th_period.c"
 #endif
