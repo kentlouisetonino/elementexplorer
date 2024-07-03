@@ -1,7 +1,7 @@
 build:
 	gcc -g -o bin/elementexplorer src/main.c
 
-run:
+elementexplorer:
 	make build
 	bin/elementexplorer
 
