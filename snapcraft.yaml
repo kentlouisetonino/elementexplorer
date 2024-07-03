@@ -5,7 +5,7 @@ description: |
   A CLI tool for element details.
 
 grade: stable
-base: core20
+base: core22
 confinement: strict
 
 apps:
