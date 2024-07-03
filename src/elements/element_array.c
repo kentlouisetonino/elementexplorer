@@ -1,45 +1,6 @@
+#include "./data/data.h"
 #include "./element_type.h"
 #include <stdio.h>
-
-element_details hydrogen = {
-    "H",
-    "Hydrogen",
-    "1",
-    "Nonmetal",
-    "1.0080 u",
-    "Gas",
-    "1s1",
-    "+1, -1",
-    "2.2",
-    "120 pm",
-    "13.598 eV",
-    "0.754 eV",
-    "13.81 K",
-    "20.28 K",
-    "0.00008988 g/cm³",
-    "1766",
-    "https://pubchem.ncbi.nlm.nih.gov/element/1",
-};
-
-element_details helium = {
-    "He",
-    "Helium",
-    "2",
-    "Noble Gas",
-    "4.00260 u",
-    "Gas",
-    "1s2",
-    "0",
-    "N/A",
-    "140 pm",
-    "	24.587 eV",
-    "N/A",
-    "0.95 K",
-    "4.22 K",
-    "0.0001785 g/cm³",
-    "1868",
-    "https://pubchem.ncbi.nlm.nih.gov/element/2",
-};
 
 element_details lithium = {
     "Li",

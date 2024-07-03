@@ -3,7 +3,7 @@
 #include "./displays/app_exit.h"
 #include "./displays/clear_terminal.h"
 #include "./displays/element_not_found.h"
-#include "./elements/element_data.h"
+#include "./elements/element_array.h"
 #include "./elements/element_input_match.h"
 #include "./elements/element_type.h"
 #include "./elements/get_element_details.h"
