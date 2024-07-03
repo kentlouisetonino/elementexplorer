@@ -1,10 +1,10 @@
-Build:
-	gcc -g -o src/main src/main.c
+build:
+	gcc -g -o bin/elementexplorer src/main.c
 
-App:
-	make Build
-	src/main
+run:
+	make build
+	bin/elementexplorer
 
-Debug:
-	make Build
-	gdb src/main
+debug:
+	make build
+	gdb bin/elementexplorer
