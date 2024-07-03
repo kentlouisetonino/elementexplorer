@@ -1,5 +1,20 @@
 name: elementexplorer
-base: core22
-version: "0.0.7"
-summary: A CLI tool for element details.
-description: A CLI tool for element details.
+version: "0.1.1"
+summary: CLI Tool
+description: |
+  A CLI tool for element details.
+
+grade: stable
+base: core20
+confinement: strict
+
+apps:
+  elementexplorer:
+    command: bin/elementexplorer
+
+parts:
+  elementexplorer:
+    source: .
+    plugin: dump
+    organize:
+      "elementexplorer": "/usr/local/bin/elementexplorer"
