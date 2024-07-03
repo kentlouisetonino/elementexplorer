@@ -1,4 +1,4 @@
-## Description
+## $\textnormal{Description}$
 
 <br />
 
@@ -15,11 +15,15 @@
 
 
 
-## Local Development
+## $\textnormal{Local \ Development}$
 
 - `Running the app.`
 
 ```sh
+# If you only want to build.
+chmod +x run-build.sh
+./run-build.sh
+
 # Running the app.
 chmod +x run.sh
 ./run.sh
@@ -27,4 +31,25 @@ chmod +x run.sh
 # Running the app with GDB.
 chmod +x run-debug.sh
 ./run-debug.sh
+```
+
+<br />
+<br />
+
+
+
+## $\textnormal{Installation}$
+
+```sh
+# If you already installed the CLI tool.
+sudo snap refresh elementexplorer
+
+# If not yet installed.
+sudo snap install elementexplorer
+
+# If you want to uninstall.
+sudo snap remove elementexplorer
+
+# Runnin the CLI tool.
+elementexplorer
 ```
