@@ -14,4 +14,3 @@
 | ---------- |
 | $\textnormal{1. \ Create an issue with explicit title.}$ |
 | $\textnormal{2. \ Provide on how to replicate the bug.}$ |
-| $\textnormal{3. \ Provide the description of correct behavior.}$ |
