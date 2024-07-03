@@ -10,6 +10,8 @@
 
 > - Elements details are based on [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
+> - Snap: https://snapcraft.io/elementexplorer
+
 <br />
 <br />
 
