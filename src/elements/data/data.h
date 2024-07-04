@@ -7,5 +7,6 @@
 #include "./elements_5th_period.c"
 #include "./elements_6th_period.c"
 #include "./elements_7th_period.c"
+#include "./elements_actinides.c"
 #include "./elements_lanthanides.c"
 #endif
