@@ -1,7 +1,6 @@
 #ifndef ELEMENT_TYPE_H
 #define ELEMENT_TYPE_H
 
-
 typedef struct {
   char *symbol;
   char *name;
