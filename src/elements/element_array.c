@@ -1,6 +1,5 @@
-#include "./data/data.h"
-#include "./element_type.h"
-#include <stdio.h>
+#include "data/data.h"
+#include "element_type.h"
 
 element elements[] = {
     {"h", "hydrogen", &hydrogen},
