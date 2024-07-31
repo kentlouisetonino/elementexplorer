@@ -1,18 +1,15 @@
-#include "./displays/add_new_line.h"
-#include "./displays/app_description.h"
-#include "./displays/app_exit.h"
-#include "./displays/clear_terminal.h"
-#include "./displays/element_not_found.h"
-#include "./elements/element_array.h"
-#include "./elements/element_input_match.h"
-#include "./elements/element_type.h"
-#include "./elements/get_element_details.h"
-#include "./inputs/get_input.h"
-#include "./inputs/get_lowercase_input.h"
-#include "./inputs/get_retry_input.h"
-#include <ctype.h>
-#include <stdio.h>
-#include <string.h>
+#include "displays/add_new_line.h"
+#include "displays/app_description.h"
+#include "displays/app_exit.h"
+#include "displays/clear_terminal.h"
+#include "displays/element_not_found.h"
+#include "elements/element_array.h"
+#include "elements/element_input_match.h"
+#include "elements/element_type.h"
+#include "elements/get_element_details.h"
+#include "inputs/get_input.h"
+#include "inputs/get_lowercase_input.h"
+#include "inputs/get_retry_input.h"
 
 int main(void) {
   int try_again = 1;
