@@ -1,6 +1,5 @@
-#include "./add_new_line.h"
-#include "./add_new_tab.h"
-#include "./color_codes.h"
+#include "color_codes.h"
+#include "escape_sequence.h"
 #include <stdio.h>
 
 void app_description(void) {

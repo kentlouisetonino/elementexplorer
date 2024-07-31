@@ -1,6 +1,4 @@
-#include "../displays/add_new_line.h"
-#include "../displays/add_new_tab.h"
-#include <stdio.h>
+#include "../displays/escape_sequence.h"
 #include <stdlib.h>
 
 char *get_input(void) {

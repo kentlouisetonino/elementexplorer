@@ -1,6 +1,5 @@
-#include "./add_new_tab.h"
-#include "./color_codes.h"
-#include <stdio.h>
+#include "color_codes.h"
+#include "escape_sequence.h"
 
 void element_not_found(void) {
   add_new_tab();

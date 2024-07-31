@@ -1,8 +1,6 @@
-#include "../displays/add_new_tab.h"
-#include "./get_lowercase_input.h"
-#include <stdio.h>
+#include "../displays/escape_sequence.h"
+#include "get_lowercase_input.h"
 #include <stdlib.h>
-#include <string.h>
 
 int get_retry_input(void) {
   char *retry_input = malloc(sizeof(char) * 5);

@@ -1,4 +1,4 @@
-#include "./add_new_tab.h"
+#include "escape_sequence.h"
 
 void app_exit(void) {
   add_new_tab();
