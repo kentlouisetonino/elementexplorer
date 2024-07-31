@@ -1,6 +1,5 @@
 #include "color_codes.h"
 #include "escape_sequence.h"
-#include <stdio.h>
 
 void app_description(void) {
   add_new_tab();
