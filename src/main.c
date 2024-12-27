@@ -1,5 +1,4 @@
 #include "displays/displays.h"
-#include "displays/app_exit.h"
 #include "displays/clear_terminal.h"
 #include "displays/element_not_found.h"
 #include "displays/escape_sequence.h"
