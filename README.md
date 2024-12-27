@@ -40,7 +40,7 @@ chmod +x run-debug.sh
 
 
 
-## Setup
+## Snap Installation
 
 ```sh
 # If you already installed the CLI tool.
