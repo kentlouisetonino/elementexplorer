@@ -1,4 +1,4 @@
-## $\textnormal{ElementExplorer}$
+## ElementExplorer
 
 <br />
 
@@ -17,7 +17,7 @@
 
 
 
-## $\textnormal{Local \ Development}$
+## Local Development
 
 - `Running the app.`
 
@@ -40,7 +40,7 @@ chmod +x run-debug.sh
 
 
 
-## $\textnormal{Installation}$
+## Setup
 
 ```sh
 # If you already installed the CLI tool.
