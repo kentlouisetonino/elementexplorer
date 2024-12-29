@@ -1,5 +1,4 @@
 #include "displays/displays.h"
-#include "displays/element_not_found.h"
 #include "displays/escape_sequence.h"
 #include "elements/element_array.h"
 #include "elements/element_input_match.h"
