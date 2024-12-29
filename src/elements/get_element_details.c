@@ -1,5 +1,4 @@
-#include "../displays/color_codes.h"
-#include "../displays/escape_sequence.h"
+#include "../escape_sequence/escape_sequence.h"
 #include "element_type.h"
 
 void get_element_details(element_details *element) {
