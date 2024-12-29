@@ -1,4 +1,4 @@
-#include "../displays/escape_sequence.h"
+#include "../escape_sequence/escape_sequence.h"
 #include <stdlib.h>
 
 char *get_input(void) {
